@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width="1587" height="1306" alt="image" src="https://github.com/user-attachments/assets/bf4a2003-743b-4df0-a1b6-0d477fe1d291" />
 
-## Getting Started
+Хотела делать сайт куда буду сама писать статьи на разные темы (как википедия наверное) с ссылками на источники и т.п., но когда началась учеба у меня перестало хватать времени и пришлось забросить разработку 
 
-First, run the development server:
+Что реализовано: админ-панель для управления статьями, создание, редактирование, публикация и удаление статей, загрузка обложек и изображений, поддержка Markdown при написании статей, поиск по статьям, категории с возможностью создавать, изменять и удалять их через админ-панель, отдельные страницы категорий, кнопка "Удиви меня", открывающая случайную опубликованную статью.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Что планировалось добавить: авторизацию администраторов с заранее выданными логинами и паролями, возможность нескольким администраторам публиковать собственные статьи, рекомендации похожих материалов, улучшенный поиск, комментарии, статистику просмотров, более проработанный дизайн главной страницы и несколько небольших функций для удобства навигации и работы с контентом.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Используемые технологии: Next.js, React, JavaScript, SQLite, better-sqlite3, Tailwind CSS, react-markdown, remark-gfm.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Запуск проекта: после клонирования репозитория выполнить npm install, затем npm run dev. После запуска сайт будет доступен по адресу http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img width="1550" height="1303" alt="image" src="https://github.com/user-attachments/assets/1eecc869-9291-4356-8b1a-935f92bb1a65" />
+<img width="1350" height="982" alt="image" src="https://github.com/user-attachments/assets/2041808e-8466-4f60-804c-3f9b9201a7db" />
+<img width="1450" height="1252" alt="image" src="https://github.com/user-attachments/assets/88d04b45-f72e-4dee-b783-8849cd8c8a71" />
+<img width="1521" height="1218" alt="image" src="https://github.com/user-attachments/assets/d81a712b-3a2d-4719-b961-edd00a8219a7" />
